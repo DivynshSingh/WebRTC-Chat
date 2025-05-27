@@ -1,0 +1,51 @@
+user
+    -has freinds that he can recieve messages from
+    1> asks server periodically if a connection request for user has arrived
+        if yes:
+            keeps connection with the server until all p2p webRTC connections to freinds have been built
+             and then talks to freinds
+            if connection breaks:
+                asks 
+    2> tells server it wants to connect to some guy, if server finds them as freinds server proceeds otherwise server tells requester to first send a freind req
+
+
+    user - u<n>
+    server - s
+
+    u1 - send s req 'i wanna talk to 'u2', server recieves req and replies with ok i will let you know when he ready to tok
+                                                                                        s here only acknowledges 
+    u1 - ask s periodically anyone wanna talk 'u1'
+    usign mqtt now, mmuch better then periodic polling.
+
+
+
+
+
+u - connects to server through websocket, keep alive
+  - when send message - send list of [users] i wanna talk to
+  - recieve list of [users] that wanna talk to me
+
+
+
+
+
+### server
+// ACK Codes
+1 = registration_success
+2 = delivered  
+3 = user_offline
+4 = missed_requests
+5 = friend_request_required
+
+// Client receives:
+{"code": 2, "username": "bob"}        // Request delivered to bob
+{"code": 3, "username": "alice"}      // Alice is offline  
+{"code": 4, "requests": [...]}        // You have missed requests
+
+================================
+
+
+Plan Discarded: Refer paint3d file.
+
+
+================================
