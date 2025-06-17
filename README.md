@@ -132,3 +132,7 @@ onConnectionStatus: (peer: string, status: string) => void
 > notifies when peer state changes. status can be:
 > `"connected"`, `"disconnected"`, `"failed"`
 > in total => `"closed"` | `"connected"` | `"connecting"` | `"disconnected"` | `"failed"` | `"new"` but we only use 3.
+> ![sfront_end/dist/1.png]
+> ![sfront_end/dist/2.png]
+> ![sfront_end/dist/3.png]
+> ![sfront_end/dist/4.png]
