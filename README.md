@@ -133,7 +133,9 @@ onConnectionStatus: (peer: string, status: string) => void
 > `"connected"`, `"disconnected"`, `"failed"`
 > in total => `"closed"` | `"connected"` | `"connecting"` | `"disconnected"` | `"failed"` | `"new"` but we only use 3.  
 
-### 🎬 Some snapshot of the UI
+---  
+
+### 🎬 Some snapshot of the UI  
 <img src="sfront_end/src/public/1.png" width="45%" />  
 <img src="sfront_end/src/public/2.png" width="45%" />  
 <img src="sfront_end/src/public/3.png" width="45%" />  
