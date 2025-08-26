@@ -1,4 +1,4 @@
-# 🌐 WebRTC P2P | Decentralised Chat Application
+# 🌐 WebRTC P2P Chat Application
 
 a real-time peer-to-peer chat app built with **WebRTC**, **React**, and **MQTT signaling** -- simplified browser-to-browser communication.
 
@@ -8,7 +8,6 @@ a real-time peer-to-peer chat app built with **WebRTC**, **React**, and **MQTT s
 
 - **Real-time P2P** messaging with WebRTC data channels  
 - **Reliable and encrypted** Communication.
-- Decentralised architecture.
 - Relies heavily on **Cleint Side Robustness**, as signaling servers are not blame for failures.
 - Sleek & Reactive ui (tailwind + react)  
 - Chatting with **multiple** peers at once.
